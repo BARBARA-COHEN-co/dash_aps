@@ -17,7 +17,26 @@
             "filepath": "docs/get-started.md"
           }
         }
+      },
+      "/dash": {
+        "type": "group",
+        "title": "Dash",
+        "children": {}
       }
-    }
+    },
+    "header": [
+      {
+        "type": "link",
+        "title": "Home",
+        "to": "/",
+        "align": "start"
+      },
+      {
+        "type": "link",
+        "title": "Dash",
+        "to": "/dash",
+        "align": "start"
+      }
+    ]
   }
 }
